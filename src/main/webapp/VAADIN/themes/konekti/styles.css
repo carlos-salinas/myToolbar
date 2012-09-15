@@ -1,0 +1,34 @@
+@CHARSET "UTF-8";
+
+@import "../reindeer/styles.css";
+
+.background {
+	background: url("images/whitey.png") repeat scroll 0 0 #F7F5F5;
+}
+
+.toolbar_layout{
+	display: inline-block;
+	background-color: #F5F5F5;	
+	border-bottom: 0.5px solid #BFBFBF;
+	box-shadow: 0 -2.5px 0 rgba(0, 0, 0, 0.1) inset;
+}
+
+.brick {
+	font-size: 14px;
+	font-weight: bold;
+	width: 100px; 
+	height: 100px; 
+	margin: 10px;
+	padding: 10px;
+	background: #1E2123; 
+	color: #fff;
+	float: left;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+}
+
+.toolbar {
+	padding: 10px;
+	float: left;
+	display: inline;
+}
